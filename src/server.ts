@@ -1,16 +1,13 @@
-import 'dotenv/config';
-import express from 'express';
-import helmet from 'helmet';
-import authRoutes from './routes/auth.routes';
+import express, { Request, Response } from 'express';
 
 const app = express();
 
-app.use(helmet());              // Security headers
-app.use(express.json());        // Parse JSON
+const PORT = process.env.PORT || 8080;
 
-app.use('/api/auth', authRoutes);
+app.get('/', (req: Request, res: Response) => {
+    res.send('Secure Node API running');
+});
 
-const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
-    console.log(`Secure API running on port ${PORT}`);
+    console.log(`Server running on port ${PORT}`);
 });
