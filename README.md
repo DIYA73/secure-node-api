@@ -1,21 +1,32 @@
-# 🔐 Secure Node.js API
+# Secure Node API
 
-A secure backend API built with **Node.js, TypeScript, and Express**, focused on implementing real-world **security best practices**.
+A secure, production-ready Node.js API built with TypeScript.
 
-This project is designed as a learning and portfolio project, demonstrating how to build a secure authentication system from scratch.
+This project demonstrates modern backend development practices including
+security, testing, CI/CD, and containerized deployment.
 
----
+## ✨ Features
 
-## 🚀 Features
+- Node.js + TypeScript backend
+- Secure API structure
+- Input validation and sanitization
+- Rate limiting to prevent abuse
+- Environment-based configuration
+- Unit tests with Jest
+- GitHub Actions CI pipeline
+- Dockerized for production deployment
 
-- Secure Express server
-- Input validation using `express-validator`
-- Password hashing with `bcrypt`
-- Rate limiting to prevent brute-force attacks
-- Security headers with `helmet`
-- Environment variables with `dotenv`
-- Structured project architecture
-- Unit testing with Jest
-- TypeScript for type safety
+## 🛠 Tech Stack
 
----
+- Node.js
+- TypeScript
+- Express
+- Jest
+- GitHub Actions
+- Docker
+
+## 🚀 Getting Started
+
+### Install dependencies
+```bash
+npm install
