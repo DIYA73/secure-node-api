@@ -5,7 +5,7 @@ A secure, production-ready Node.js API built with TypeScript.
 This project demonstrates modern backend development practices including
 security, testing, CI/CD, and containerized deployment.
 
-## ✨ Features
+##  Features
 
 - Node.js + TypeScript backend
 - Secure API structure
@@ -16,7 +16,7 @@ security, testing, CI/CD, and containerized deployment.
 - GitHub Actions CI pipeline
 - Dockerized for production deployment
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Node.js
 - TypeScript
@@ -25,8 +25,9 @@ security, testing, CI/CD, and containerized deployment.
 - GitHub Actions
 - Docker
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Install dependencies
 ```bash
 npm install
+
